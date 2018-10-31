@@ -161,8 +161,8 @@ a:hover{
 
 .ba-intro {
 	display: flex;
-	padding-left: 76.5px;
-	margin-top: 13.7%;
+	padding-left: 77.5px;
+	margin-top: 154px;
 }
 
 .ba-intro__desc {
@@ -201,13 +201,13 @@ a:hover{
 
 /* primary container */
 .ba-about-primary {
-	flex-basis: 52%;
-	padding-right: 3%;
+    flex-basis: 52%;
+    padding-right: 29px;
 }
 
 .ba-about-primary h2 {
-    margin-bottom: 4%;
-    margin-top: 3%;
+    margin-bottom: 16px;
+    margin-top: 15px;
 }
 
 
@@ -220,12 +220,12 @@ a:hover{
 /* secondary container */
 
 .ba-about-secondary {
-	flex-basis: 48%;
-	padding-left: 3.2%;
+    flex-basis: 48%;
+    padding-left: 26px;
 }
 
 .ba-about-secondary__performance {
-	margin-bottom: 10%;
+    margin-bottom: 38px;
 }
 
 .ba-about-secondary__performance, .ba-about-secondary__workmodes {
@@ -248,7 +248,7 @@ a:hover{
 .ba-about-secondary__performance-info p, .ba-about-secondary__workmodes-info p {
 	line-height: 1.9;
 	letter-spacing: 0.1px;
-	padding-right: 8%;
+	padding-right: 25px;
 }
 
 
@@ -286,7 +286,7 @@ a:hover{
 }
 
 .ba-specs__list h2 {
-	margin-bottom: 4.3%;
+    margin-bottom: 28px;
 }
 
 
@@ -354,7 +354,7 @@ a:hover{
 }
 
 .ba-slider__name span {
-	font:700 11.98px/2 Roboto, sans-serif;
+	font: 700 11.98px/2 Roboto, sans-serif;
 	color:  #9fa3a7;
 	text-transform: uppercase;
 	letter-spacing: 2.7px;
@@ -379,7 +379,7 @@ a:hover{
 
 .ba-purchase {
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 }
 
 .ba-purchase__card {
@@ -423,6 +423,15 @@ a:hover{
 	text-align: right;
 }
 
+.ba-purchase__submit {
+    width: 98%;
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 19px;
+}
+
 .ba-purchase__row input {
     width: 71%;
     border: none;
@@ -436,15 +445,61 @@ label {
 }
 
 .ba-purchase__form {
-	display: flex;
-	flex-basis: 50%;
+	padding-top: 61px;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-start;
+}
+
+.ba-purchase__button {
+padding: 19px;
+}
+
+form {
+	width: 100%;
+}
+
+/* ------------------------------ FOOTER --------------------------------- */
+
+.ba-footer {
+    background: #F7F8F9;
+    font: 900 12px/1 Roboto, sans-serif;
+    padding-top: 102px;
+    padding-bottom: 88px;
+}
+
+.ba-footer-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.ba-footer-menu {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 78px;
+    letter-spacing: 2.2px;
+}
+
+.ba-footer-menu li + li {
+	padding-left: 37px;
+}
+
+.ba-socials {
+    font-size: 21px;
+    padding-left: 78px;
+}
+
+.ba-socials a + a {
+	padding-left: 30px;
+} 
+
+.ba-copyrights {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
 }
 
 
-
-
-
-.ba-buy__button {
-	padding: 16px 18px;
-	color: #fff;
-}
